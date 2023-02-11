@@ -1,5 +1,7 @@
 #!/usr/bin/env python3 
 
+print("Hello World")
+
 password = "admiraL"
 
 while True:
@@ -10,3 +12,4 @@ while True:
     print("Please try again!")
 
 print("Welcome, user!")
+
