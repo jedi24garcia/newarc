@@ -1,15 +1,18 @@
 #!/usr/bin/env python3 
 
-print("Hello World")
+""" We are learning NumPy """
 
-password = "admiraL"
+import numpy
+from scipy import misc
+import matplotlib.pyplot as plt
+from matplotlib.pyplot import imread
 
-while True:
-  user1 = input("Enter password: ")
-  if user1 == password:
-    break
-  else:
-    print("Please try again!")
+img = imread('Tiger.jpg');
+type(img)
 
-print("Welcome, user!")
+numpy.ndarray
+
+plt.imshow(img)
+plt.show()
+
 
