@@ -14,5 +14,3 @@ numpy.ndarray
 
 plt.imshow(img)
 plt.show()
-
-
