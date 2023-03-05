@@ -12,5 +12,6 @@ type(img)
 
 numpy.ndarray
 
+# plt.imshow(img_gray, cmap="gray")
 plt.imshow(img)
 plt.show()
